@@ -1,7 +1,7 @@
 pragma solidity >=0.4.21 <0.6.0;
 
 import "./ERC721PropertyToken.sol";
-import "./Verifier.sol";
+import "./SquareVerifier.sol";
 
 contract SolnSquareVerifier is ERC721PropertyToken {
     uint256 private _currentTokenId = 0;
