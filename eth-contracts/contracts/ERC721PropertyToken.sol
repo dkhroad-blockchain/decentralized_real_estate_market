@@ -562,7 +562,7 @@ contract ERC721PropertyToken is ERC721Metadata {
       * @dev public function to mint the token and setTokenURI
       *      can only be executed by the contract owner
       */
-    function mint(address to, uint256 tokenId ) external onlyOwner returns(bool) {
+    function mint(address to, uint256 tokenId ) public onlyOwner returns(bool) {
         _mint(to,tokenId);
         setTokenURI(tokenId);
         return true;
