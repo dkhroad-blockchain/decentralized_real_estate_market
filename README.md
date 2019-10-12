@@ -5,7 +5,8 @@ The capstone builds a ERC721 token and zkSNARK based a decentralized housing pro
 ## Getting Started
 
 Install truffle - `npm install -g truffle`
-Install node packages - `npm install` 
+
+Install node dependencies packages - `npm install` 
 
 
 ## Testing 
@@ -38,7 +39,7 @@ MNEMONIC=
 NETWORK='rinkeby'
 NFT_CONTRACT_ADDRESS=
 OWNER_ADDRESS=
-``
+```
 Deploy the contracts - `truffle deploy --network rinkeby`
 
 After creating witness and generating proof as mentioned in the testing section above, 
