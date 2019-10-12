@@ -16,8 +16,10 @@
     "openzeppelin-test-helpers": "^0.4.3"
   },
   "dependencies": {
+    "dotenv": "^8.1.0",
     "openzeppelin-solidity": "^2.2.0",
     "solc": "^0.5.2",
-    "solc-js": "^0.5.2"
+    "solc-js": "^0.5.2",
+    "truffle-hdwallet-provider": "^1.0.17"
   }
 }
